@@ -1,0 +1,6 @@
+Game_Name,Total_Reviews,Positive_Reviews,Negative_Reviews,Neutral_Reviews,Positive_Percentage,Negative_Percentage,Neutral_Percentage,Average_Sentiment_Score,Recent_Sentiment_Score,Sentiment_Trend,Sentiment_Volatility,Last_Updated
+Counter-Strike: Global Offensive,614,396,89,129,64.5,14.5,21.01,0.2183,0,Declining,0.3065,2025-11-14 00:21:57
+Dota 2,570,281,185,104,49.3,32.46,18.25,0.1011,0,Declining,0.4054,2025-11-14 00:21:57
+Apex Legends,725,388,146,191,53.52,20.14,26.34,0.1314,0,Declining,0.2605,2025-11-14 00:21:57
+PUBG: Battlegrounds,548,223,207,118,40.69,37.77,21.53,-0.0071,0,Improving,0.3483,2025-11-14 00:21:57
+Grand Theft Auto V,549,452,17,80,82.33,3.1,14.57,0.29,0,Declining,0.2073,2025-11-14 00:21:57

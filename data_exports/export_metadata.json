@@ -1,0 +1,89 @@
+{
+  "export_timestamp": "2025-11-14T00:21:58.106800",
+  "total_games_analyzed": 5,
+  "total_reviews": 3006,
+  "games_list": [
+    "Counter-Strike: Global Offensive",
+    "Dota 2",
+    "Apex Legends",
+    "PUBG: Battlegrounds",
+    "Grand Theft Auto V"
+  ],
+  "date_range": {
+    "start_date": "2024-01-01T00:00:00",
+    "end_date": "2024-12-25T00:00:00"
+  },
+  "data_schema": {
+    "summary_table": {
+      "description": "Aggregated sentiment metrics by game",
+      "row_count": 5,
+      "columns": [
+        "Game_Name",
+        "Total_Reviews",
+        "Positive_Reviews",
+        "Negative_Reviews",
+        "Neutral_Reviews",
+        "Positive_Percentage",
+        "Negative_Percentage",
+        "Neutral_Percentage",
+        "Average_Sentiment_Score",
+        "Recent_Sentiment_Score",
+        "Sentiment_Trend",
+        "Sentiment_Volatility",
+        "Last_Updated"
+      ]
+    },
+    "detailed_table": {
+      "description": "Individual review records with sentiment scores",
+      "row_count": 3006,
+      "columns": [
+        "Game_Name",
+        "Review_Text",
+        "Review_Date",
+        "Sentiment_Score",
+        "Sentiment_Label",
+        "User_Name",
+        "Playtime_Hours",
+        "Helpfulness_Score",
+        "Recommendation",
+        "Text_Length",
+        "Year",
+        "Month",
+        "Quarter",
+        "Month_Name",
+        "Weekday"
+      ]
+    },
+    "timeseries_table": {
+      "description": "Monthly aggregated sentiment trends",
+      "row_count": 60,
+      "columns": [
+        "Game_Name",
+        "Year_Month",
+        "Year",
+        "Month",
+        "Month_Name",
+        "Review_Count",
+        "Avg_Sentiment",
+        "Sentiment_StdDev",
+        "Min_Sentiment",
+        "Max_Sentiment",
+        "Sentiment_MA_3",
+        "Avg_Playtime",
+        "Avg_Helpfulness"
+      ]
+    }
+  },
+  "export_results": {
+    "success": true,
+    "files_created": [
+      "data_exports/gaming_summary.xlsx",
+      "data_exports/gaming_summary.csv",
+      "data_exports/gaming_reviews.xlsx",
+      "data_exports/gaming_reviews.csv",
+      "data_exports/gaming_timeseries.xlsx",
+      "data_exports/gaming_timeseries.csv"
+    ],
+    "errors": []
+  }
+}
